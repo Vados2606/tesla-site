@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header_background{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bg_model_s{
+    background: url(../img//model_s/tesla-model-s.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg_model_3{
+    background: url(../../img/model-3_02.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg_model_y{
+    background: url(../../img/model-y.jpeg) center no-repeat;
+    background-size: cover;
+}
+
+.bg_model_x{
+    background: url(../../img/model-x_02.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+}
+
+/*NAV*/
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_title{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    font-family: 'Pattaya';
+}
+
+.menu_left{
+    padding-top: 15px;
+}
+
+.menu_left a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Ruslan Display';
+}
+
+.menu_left_y a{
+    color: black;
+}
+
+.menu_left a:hover{
+    color: #ff0000;
+    text-shadow: red 2px 2px 4px;
+    font-size: 21px;
+    transition: .3s;
+}
+
+
+.menu_right{
+    padding-top: 15px;
+}
+
+.menu_right a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Ruslan Display';
+}
+
+.menu_right_y a{
+    color: black;
+}
+
+.menu_right a:hover{
+    color: #ff0000;
+    text-shadow: red 2px 2px 4px;
+    font-size: 21px;
+    transition: .3s;
+}
+
+.logo_img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.logo_img:hover{
+    opacity: 0.6;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    max-height: 112px;
+    height: 100%;
+}
+
+.buy_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    width: 210px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.button a input{
+    width: 190px;
+    height: 50px;
+    background-color: #76716e38;
+    border: 2px solid #48404042;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    color: #2b0208;
+}
+
+.button a input:hover{
+    background-color: red;
+}
+
+.info{
+    width: 490px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_block{
+    width: 245px;
+    border-left: 2px solid #76716e70;
+    height: 112px;
+    text-align: center;
+}
+
+.info_block_after{
+    border-right: 2px solid #76716e70;
+}
+
+.info_block i{
+    font-size: 50px;
+    padding-top: 10px;
+    color: #76716ea8;
+}
+
+.info_block h2{
+    margin: 0;
+}
+
+.info_block p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Neucha', cursive;
+}
+
+/*********************Text*******************/
+.text{
+    display: flex;
+    justify-content: center;
+    background-color: #a49f9f70;
+}
+
+.text p{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    margin: 50px;
+}
+
+/*********************Block_photo**************/
+.block_photo{
+    display: flex;
+}
+
+.block_photo img{
+    width: 50%;
+    height: auto;
+}
+
+/*****************FOOTER*******************/
+footer{
+    display: flex;
+    justify-content: center;
+    height: 215px;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer h2{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+}
+
+.footerLeft{
+    width: 540px;
+    text-align: center;
+}
+
+.footerLeft p span{
+    padding-left: 50px;
+}
+
+.footerCenter{
+    width: 120px;
+}
+
+.footerCenter img{
+    padding-top: 17px;
+}
+
+.footerCenter img{
+    width: 100px;
+    height: auto;
+}
+
+.footerRight{
+    width: 540px;
+    text-align: center;
+}
+
+.footerRight p a{
+    color: black;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+#foterCopyright{
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
